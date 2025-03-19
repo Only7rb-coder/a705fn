@@ -657,7 +657,7 @@ CONFIG_SETEND_EMULATION=y
 # CONFIG_RKP_NS_PROT is not set
 # CONFIG_RKP_DMAP_PROT is not set
 # CONFIG_UH_LKMAUTH is not set
-# CONFIG_UH_LKM_BLOCK iis not set
+# CONFIG_UH_LKM_BLOCK is not set
 
 #
 # ARMv8.1 architectural features
@@ -5832,7 +5832,7 @@ CONFIG_QUOTACTL=y
 CONFIG_FUSE_FS=y
 # CONFIG_CUSE is not set
 CONFIG_FUSE_SUPPORT_STLOG=y
-# CONFIG_OVERLAY_FS is not set
+CONFIG_OVERLAY_FS=y
 # CONFIG_INCREMENTAL_FS is not set
 
 #
